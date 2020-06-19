@@ -6,7 +6,6 @@
 
 const path = require("path")
 const slugify = require("slugify")
-// You can delete this file if you're not using it
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
