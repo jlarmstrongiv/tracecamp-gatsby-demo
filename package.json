@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "tracecamp-gatsby-demo",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A demo to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "John L. Armstrong IV",
   "dependencies": {
     "bootstrap": "^4.5.0",
     "cross-env": "^7.0.2",
@@ -43,9 +43,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/jlarmstrongiv/tracecamp-gatsby-demo"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/jlarmstrongiv/tracecamp-gatsby-demo/issues"
   }
 }
