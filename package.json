@@ -26,7 +26,8 @@
     "slugify": "^1.4.0"
   },
   "devDependencies": {
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "surge": "^0.21.3"
   },
   "keywords": [
     "gatsby"
@@ -39,7 +40,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "presurge": "npm run build",
+    "surge": "npx surge --domain $(node -p \"require('./package.json').name\").surge.sh --project ./public"
   },
   "repository": {
     "type": "git",
